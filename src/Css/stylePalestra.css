@@ -1,0 +1,226 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #f7f7f7;
+    font-family: 'QuickSand', sans-serif;
+    font-size: 1.0rem;
+    font-weight: 400;
+}
+
+
+/*NAVBAR*/
+
+.navbar{
+    background: repeating-linear-gradient(45deg,#272727, #212121 100%);
+}
+
+.navbar-brand{
+    width: 200px;
+}
+
+.nav-link{
+    color: #ffffff;
+    font-family: 'QuickSand', sans-serif;
+   font-size: 1.0rem;
+   font-weight: 400;
+   text-align: center;
+}
+
+.nav-link:hover{
+    color: #e47a33;
+}
+
+#active{
+    color: #e47a33;
+}
+
+.linke{
+    color: #212121;
+}
+
+/*MATUTINO*/
+
+#matutino{
+    margin: 100px 0px;
+}
+
+#matutino h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#matutino h4{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+
+#matutino h5{
+    font-weight: 300;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Roboto',sans-serif;
+
+}
+
+#matutino h6{
+    color: #ff8c40;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#matutino p{
+    text-align: center; 
+}
+
+#matutino .jumbotron{
+    margin-top: 30px;
+    border: 2px solid #ff8c40;
+    box-shadow: 9px 9px #7c7c7c;
+    background-color: #f7f7f7;
+}
+
+
+/*NOTURNO*/
+
+
+#noturno{
+    margin: 100px 0px;
+}
+
+#noturno h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#noturno h4{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+
+#noturno h5{
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+
+#noturno h6{
+    color: #ff8c40;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#noturno p{
+    text-align: center; 
+}
+
+#noturno .jumbotron{
+    margin-top: 30px; 
+    border: 2px solid #ff8c40;
+    box-shadow: 9px 9px #7c7c7c;
+    background-color: #f7f7f7;
+}
+
+
+/*PALESTRANTES*/
+
+
+#palestrantes{
+    background-color: #667da0;
+    color: #fafafa;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: justify;
+}
+
+#palestrantes h1{
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: 'Archivo Black', sans-serif;
+   
+}
+
+#palestrantes h2{
+    text-align: center;
+    margin-bottom: 20px;
+   font-family: 'Baloo', cursive;
+}
+
+#palestrantes h6{
+    text-align: center;
+    margin-bottom: 30px;
+     font-family: 'Roboto', cursive;
+
+}
+
+.avatar img{
+    
+   width: 80%;
+   height: 80%;
+   border-radius: 150px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+#prev, #next{
+    color: #212121;
+    font-size: 15pt; 
+}
+
+/*APOIADORES*/
+
+#apoiadores{
+    background-color: #f7f7f7;
+    color: #212121;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#apoiadores h1{
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+/*RODAPÉ*/
+
+#rodape{
+    padding-top: 20px;
+    color: #fafafa;
+    background: repeating-linear-gradient(45deg,#272727, #212121 100%);
+}
+
+#rodape .linkRodape{
+    color: #fafafa;
+    font-size: 1.2rem;
+    font-family: 'QuickSand', sans-serif;
+}
+
+#rodape h3{
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+}
+
+
+#rodape h1{
+    font-size: 2.0rem;
+}
+
+#rodape a{
+    color: #fafafa;
+}
+#rodape a:hover{
+    color: #e47a33;
+    text-decoration: none; 
+}
+
+.copyright{
+    background-color: #363636;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 3px;
+}

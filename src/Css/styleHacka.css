@@ -1,0 +1,308 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 400; 
+ }
+ 
+
+ /*NAVBAR*/
+
+ .navbar{
+    background: repeating-linear-gradient(45deg,#272727, #212121 100%);
+}
+
+.navbar-brand{
+    width: 200px;
+}
+
+.nav-link{
+    color: #ffffff;
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 400; 
+    text-align: center;
+}
+
+.nav-link:hover{
+    color: #ff8c40;
+}
+
+#active{
+    color: #ff8c40;
+}
+
+
+/*BANNER*/
+
+
+#banner{
+background: url('../Img/Hackathon/Fundo.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+ }
+
+#banner h3{
+     text-align: center;
+     color: #fafafa;
+     font-family: 'Staatliches', cursive;
+}
+
+
+/*SOBRE O HACKATHON*/
+
+
+#section1{
+padding: 100px 0px;
+background-color: #f7f7f7;
+color: #212121;
+}
+
+#section1 h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Staatliches', cursive;
+    color: #ff8c40;
+}
+
+#section1 p{
+    text-align: justify;
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 400;
+}
+
+/*CRONOGRAMA*/
+
+
+#section2{
+    padding: 50px 0px;
+    background: #667da0; 
+    color: #fafafa;
+}
+
+#section2 h1{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    margin-bottom: 50px;  
+}
+
+.list-group-item{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*PREMIAÇÃO*/
+
+
+#section3{
+    padding: 100px 0px; 
+    background-color: #f7f7f7;
+    color: #212121; 
+}
+
+#section3 h1{
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Staatliches', cursive;
+    color: #ff8c40;  
+}
+
+#section3 h4{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+
+#section3 .card{
+    background-color: #f7f7f7;
+    border: 5px solid #ff8c40;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+#criterio{
+    margin-top: 50px;
+    font-family: 'Staatliches', cursive;
+}
+
+.modal{
+    color: #212121;
+}
+
+.modal-body h5{
+    color: #ff8c40;
+}
+
+/*MONTAGEM DA EQUIPES*/
+
+
+#section4{
+    padding: 100px 0px;
+    background: #667da0; 
+    color: #fafafa; 
+}
+
+#section4 h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Staatliches', cursive; 
+}
+
+#section4 h3{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+
+#section4 p{
+    text-align: justify;
+    font-family: 'Roboto',sans-serif;
+}
+
+.vermelho{
+    background-color: #667da0;
+    border: 5px solid #ff8c40;
+}
+
+.cinza{
+    background-color: #667da0;
+    border: 5px solid #ff8c40;
+}
+
+
+/*INSCRIÇÃO*/
+
+
+#section5{
+    padding: 100px 0px;
+    background-color: #f7f7f7 ;
+    color: #212121; 
+}
+
+#section5 h1{
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: #ff8c40;
+}
+
+#section5 h3{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    
+}
+
+#section5 p{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+#section5 a{
+    font-family: 'Staatliches', cursive; 
+}
+
+
+/*DUVIDAS FREQUENTES*/
+
+
+#section6{
+    padding: 100px 0px;
+    background: #667da0;
+    color: #212121;
+}
+
+#section6 h1{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: #fafafa;
+}
+
+#section6 h3{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+
+#section6 .card{
+    border:0px;
+    
+}
+
+#section6 .card-body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+}
+
+#section6 button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    
+}
+
+#section6 .card-header{
+    background-color: #ff8c40;
+    border: 0px;
+}
+
+#section6 a{
+    font-family: 'Staatliches', cursive;
+}
+
+/*APOIADORES*/
+
+#section7{
+    background-color: #f7f7f7;
+    color: #212121;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#section7 h1{
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+
+
+/*RODAPÉ*/
+
+#rodape{
+    padding-top: 20px;
+    color: #fafafa;
+    background: repeating-linear-gradient(45deg,#272727, #212121 100%);
+}
+
+#rodape .linkRodape{
+    color: #fafafa;
+    font-size: 1.2rem;
+    font-family: 'QuickSand', sans-serif;
+}
+
+#rodape h3{
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+}
+
+#rodape a{
+    color: #fafafa;
+}
+
+#rodape h1{
+    font-size: 2.0rem;
+}
+
+#rodape a:hover{
+    color: #e47a33;
+    text-decoration: none; 
+}
+
+.copyright{
+    background-color: #363636;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 3px;
+}

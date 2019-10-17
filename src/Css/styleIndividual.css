@@ -1,0 +1,45 @@
+body{
+    background-color: #667da0;
+
+    /*Fonte*/
+    font-family: 'QuickSand',sans-serif;
+    font-size: 1.0rem;
+    font-weight: 500;
+}
+
+.jumbotron{
+    background-color: #ff8c40ea;
+    color: rgb(31, 31, 31);
+}
+
+label{
+    font-weight: 500;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+h1{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: #ffffff;
+}
+
+.form-control, .custom-control-input,.custom-select {
+    border-radius: 0px;
+}
+
+
+.card-header, .card-footer{
+    background-color: #ff8c40ea;
+}
+
+.card-header h2 button{
+    font-size: 1.3rem;
+    font-family: 'Roboto', 'sans-serif';
+    color: #ffffff;
+}
+
+
+.card{
+    border:none;
+}
